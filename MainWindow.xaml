@@ -1,0 +1,70 @@
+﻿<Window x:Class="_3___binding_do_klas_C_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_3___binding_do_klas_C_"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="510">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="100*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>            
+            <RowDefinition Height="100*"/>
+        </Grid.RowDefinitions>
+
+        <!--Buttons-->
+        <Button x:Name="DodajBtn"
+                Content="Dodaj"
+                Grid.Row="0"
+                Grid.Column="0"
+                Click="Dodaj"/>
+        <Button Content="Edytuj"
+                Grid.Row="0"
+                Grid.Column="1"
+                Click="Edytuj"/>
+        <Button Content="Usuń"
+                Grid.Row="0"
+                Grid.Column="2"
+                Click="Usun"/>
+        <Button Content="Importuj"
+                Grid.Row="0"
+                Grid.Column="3"
+                Click="Importuj"/>
+        <Button Content="Eksportuj"
+                Grid.Row="0"
+                Grid.Column="4"
+                Click="Exportuj"/>
+        
+        <!--ListBox-->
+        <ListBox x:Name="ListaFilmow"
+                 Grid.Row="1" 
+                 Grid.Column="0"
+                 Grid.ColumnSpan="5"
+                 ItemsSource="{Binding Filmy}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <WrapPanel>
+                        <TextBlock Text="{Binding Tytul}" FontWeight="Bold"/>
+                        <TextBlock Text=", "/>
+                        <TextBlock Text="{Binding Rezyser}"/>
+                        <TextBlock Text=", "/>
+                        <TextBlock Text="{Binding Studio}"/>
+                        <TextBlock Text=", "/>
+                        <TextBlock Text="{Binding Nosnik}"/>
+                        <TextBlock Text=", "/>
+                        <TextBlock Text="{Binding DataWydania, StringFormat='{}{0:dd.MM.yyyy}'}"/>
+                    </WrapPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+    </Grid>
+</Window>

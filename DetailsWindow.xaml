@@ -1,0 +1,92 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_3___binding_do_klas_C_;assembly="
+        xmlns:Collections="clr-namespace:System.Collections;assembly=System.Runtime" d:DataContext="{d:DesignInstance Type=local:Film}" x:Class="_3___binding_do_klas_C_.DetailsWindow"
+        mc:Ignorable="d"
+        Title="Okno szczegułów" Height="350" Width="400">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="300*"/>
+        </Grid.ColumnDefinitions>
+
+        <!--Labels-->
+        <Label Content="Tytuł" 
+               Grid.Row="0"
+               Grid.Column="0"
+               HorizontalAlignment="Center" 
+               VerticalAlignment="Center"/>
+
+        <Label Content="Reżyser" 
+               Grid.Row="1"
+               Grid.Column="0"
+               HorizontalAlignment="Center" 
+               VerticalAlignment="Center"/>
+
+        <Label Content="Studio" 
+               Grid.Row="2"
+               Grid.Column="0"
+               HorizontalAlignment="Center" 
+               VerticalAlignment="Center"/>
+
+        <Label Content="Nośnik" 
+               Grid.Row="3"
+               Grid.Column="0"
+               HorizontalAlignment="Center" 
+               VerticalAlignment="Center"/>
+
+        <Label Content="Data Wydania" 
+               Grid.Row="4"
+               Grid.Column="0"
+               HorizontalAlignment="Center" 
+               VerticalAlignment="Center"/>
+
+        <!--Boxes-->
+        <TextBox x:Name="tytulTextBox"
+                 Grid.Row="0"
+                 Grid.Column="1"
+                 Text="{Binding Tytul, UpdateSourceTrigger=PropertyChanged}"/>
+
+        <TextBox x:Name="rezyserTextBox"
+                 Grid.Row="1"
+                 Grid.Column="1"
+                 Text="{Binding Rezyser, UpdateSourceTrigger=PropertyChanged}"/>
+
+        <TextBox x:Name="studioTextBox"
+                 Grid.Row="2"
+                 Grid.Column="1"
+                 Text="{Binding Studio, UpdateSourceTrigger=PropertyChanged}"/>
+
+        <ComboBox x:Name="nosnikComboBox"
+                  Grid.Row="3" 
+                  Grid.Column="1"
+                  Loaded="ComboBox_Loaded"                  
+                  SelectedItem="{Binding Nosnik}"
+                  Text="{Binding Nosnik, UpdateSourceTrigger=PropertyChanged}"
+                  />
+
+        <DatePicker x:Name="dataWydaniaDatePicker"
+                    Grid.Row="4"
+                    Grid.Column="1"            
+                    SelectedDate="{Binding DataWydania}"
+                    />
+
+        <Button Content="OK"
+                Grid.ColumnSpan="2"
+                Grid.Row="5" 
+                Click="OK"
+                />
+    </Grid>
+</Window>

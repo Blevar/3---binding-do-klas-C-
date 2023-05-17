@@ -1,0 +1,23 @@
+H:\WSB\Sem IV - Programowanie .NET\3 - binding do klas C#\bin\Debug\net7.0-windows\3 - binding do klas.exe
+H:\WSB\Sem IV - Programowanie .NET\3 - binding do klas C#\bin\Debug\net7.0-windows\3 - binding do klas.deps.json
+H:\WSB\Sem IV - Programowanie .NET\3 - binding do klas C#\bin\Debug\net7.0-windows\3 - binding do klas.runtimeconfig.json
+H:\WSB\Sem IV - Programowanie .NET\3 - binding do klas C#\bin\Debug\net7.0-windows\3 - binding do klas.dll
+H:\WSB\Sem IV - Programowanie .NET\3 - binding do klas C#\bin\Debug\net7.0-windows\3 - binding do klas.pdb
+H:\WSB\Sem IV - Programowanie .NET\3 - binding do klas C#\obj\Debug\net7.0-windows\3 - binding do klas.csproj.AssemblyReference.cache
+H:\WSB\Sem IV - Programowanie .NET\3 - binding do klas C#\obj\Debug\net7.0-windows\DetailsWindow.g.cs
+H:\WSB\Sem IV - Programowanie .NET\3 - binding do klas C#\obj\Debug\net7.0-windows\MainWindow.g.cs
+H:\WSB\Sem IV - Programowanie .NET\3 - binding do klas C#\obj\Debug\net7.0-windows\App.g.cs
+H:\WSB\Sem IV - Programowanie .NET\3 - binding do klas C#\obj\Debug\net7.0-windows\3 - binding do klas_MarkupCompile.cache
+H:\WSB\Sem IV - Programowanie .NET\3 - binding do klas C#\obj\Debug\net7.0-windows\3 - binding do klas_MarkupCompile.lref
+H:\WSB\Sem IV - Programowanie .NET\3 - binding do klas C#\obj\Debug\net7.0-windows\DetailsWindow.baml
+H:\WSB\Sem IV - Programowanie .NET\3 - binding do klas C#\obj\Debug\net7.0-windows\MainWindow.baml
+H:\WSB\Sem IV - Programowanie .NET\3 - binding do klas C#\obj\Debug\net7.0-windows\3 - binding do klas.g.resources
+H:\WSB\Sem IV - Programowanie .NET\3 - binding do klas C#\obj\Debug\net7.0-windows\3 - binding do klas.GeneratedMSBuildEditorConfig.editorconfig
+H:\WSB\Sem IV - Programowanie .NET\3 - binding do klas C#\obj\Debug\net7.0-windows\3 - binding do klas.AssemblyInfoInputs.cache
+H:\WSB\Sem IV - Programowanie .NET\3 - binding do klas C#\obj\Debug\net7.0-windows\3 - binding do klas.AssemblyInfo.cs
+H:\WSB\Sem IV - Programowanie .NET\3 - binding do klas C#\obj\Debug\net7.0-windows\3 - binding do klas.csproj.CoreCompileInputs.cache
+H:\WSB\Sem IV - Programowanie .NET\3 - binding do klas C#\obj\Debug\net7.0-windows\3 - binding do klas.dll
+H:\WSB\Sem IV - Programowanie .NET\3 - binding do klas C#\obj\Debug\net7.0-windows\refint\3 - binding do klas.dll
+H:\WSB\Sem IV - Programowanie .NET\3 - binding do klas C#\obj\Debug\net7.0-windows\3 - binding do klas.pdb
+H:\WSB\Sem IV - Programowanie .NET\3 - binding do klas C#\obj\Debug\net7.0-windows\3 - binding do klas.genruntimeconfig.cache
+H:\WSB\Sem IV - Programowanie .NET\3 - binding do klas C#\obj\Debug\net7.0-windows\ref\3 - binding do klas.dll

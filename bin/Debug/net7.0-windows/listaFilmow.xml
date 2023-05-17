@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfFilm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Film>
+    <Tytul>The Shawshank Redemption</Tytul>
+    <Rezyser>Frank Darabont</Rezyser>
+    <Studio>Castle Rock Entertainment</Studio>
+    <Nosnik>DVD</Nosnik>
+    <DataWydania>1994-09-23T00:00:00</DataWydania>
+  </Film>
+  <Film>
+    <Tytul>The Godfather</Tytul>
+    <Rezyser>Francis Ford Coppola</Rezyser>
+    <Studio>Paramount Pictures</Studio>
+    <Nosnik>BluRay</Nosnik>
+    <DataWydania>1972-03-24T00:00:00</DataWydania>
+  </Film>
+  <Film>
+    <Tytul>The Dark Knight</Tytul>
+    <Rezyser>Christopher Nolan</Rezyser>
+    <Studio>Warner Bros. Pictures</Studio>
+    <Nosnik>BluRay</Nosnik>
+    <DataWydania>2008-07-14T00:00:00</DataWydania>
+  </Film>
+  <Film>
+    <Tytul>12 Angry Men</Tytul>
+    <Rezyser>Sidney Lumet</Rezyser>
+    <Studio>United Artists</Studio>
+    <Nosnik>VHS</Nosnik>
+    <DataWydania>1957-04-10T00:00:00</DataWydania>
+  </Film>
+  <Film>
+    <Tytul>Schindler's List</Tytul>
+    <Rezyser>Steven Spielberg</Rezyser>
+    <Studio>Universal Pictures</Studio>
+    <Nosnik>DVD</Nosnik>
+    <DataWydania>1993-11-30T00:00:00</DataWydania>
+  </Film>
+  <Film>
+    <Tytul>The Lord of the Rings: The Fellowship of the Ring</Tytul>
+    <Rezyser>Peter Jackson</Rezyser>
+    <Studio>New Line Cinema</Studio>
+    <Nosnik>DVD</Nosnik>
+    <DataWydania>2001-12-19T00:00:00</DataWydania>
+  </Film>
+  <Film>
+    <Tytul>Pulp Fiction</Tytul>
+    <Rezyser>Quentin Tarantino</Rezyser>
+    <Studio>Miramax Films</Studio>
+    <Nosnik>VHS</Nosnik>
+    <DataWydania>1994-05-21T00:00:00</DataWydania>
+  </Film>
+  <Film>
+    <Tytul>Forrest Gump</Tytul>
+    <Rezyser>Robert Zemeckis</Rezyser>
+    <Studio>Paramount Pictures</Studio>
+    <Nosnik>BluRay</Nosnik>
+    <DataWydania>1994-06-23T00:00:00</DataWydania>
+  </Film>
+  <Film>
+    <Tytul>Inception</Tytul>
+    <Rezyser>Christopher Nolan</Rezyser>
+    <Studio>Warner Bros. Pictures</Studio>
+    <Nosnik>BluRay</Nosnik>
+    <DataWydania>2010-07-22T00:00:00</DataWydania>
+  </Film>
+  <Film>
+    <Tytul>The Matrix</Tytul>
+    <Rezyser>Lana Wachowski, Lilly Wachowski</Rezyser>
+    <Studio>Warner Bros. Pictures</Studio>
+    <Nosnik>DVD</Nosnik>
+    <DataWydania>1999-03-31T00:00:00</DataWydania>
+  </Film>
+</ArrayOfFilm>
